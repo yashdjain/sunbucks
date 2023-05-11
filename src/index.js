@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Root from './components/root';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Root />
+    </HashRouter>
   </React.StrictMode>
 );
 

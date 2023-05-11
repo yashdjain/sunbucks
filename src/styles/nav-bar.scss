@@ -1,0 +1,81 @@
+@import './reset.scss';
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 10%; 
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border: black
+}
+
+.nav-bar > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-right {
+    gap: 20px;
+}
+
+.nav-logo-image {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-logo {
+    padding: 20px
+}
+
+.nav-left-tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-store-finder{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-sign-in {
+    padding: 10px;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 50px;
+    &:hover {
+        background-color: gray;
+    }
+}
+
+.nav-sign-up {
+    padding: 10px;
+    border: 2px black solid;
+    background-color: black;
+    border-radius: 50px;
+    &:hover {
+        background-color: gray;
+    }
+}
+
+.nav-sign-up > a {
+    color: white;
+}
+
+.nav-left-tabs > * > a {
+    &:hover {
+        color: green;
+    }
+}
+
+.nav-store-finder > a {
+    &:hover {
+        color: green;
+    }
+}
