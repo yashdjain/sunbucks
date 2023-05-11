@@ -10,7 +10,7 @@
     font-family: SoDoSans, Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 14px;
-    border: black
+    box-shadow: 0px 2px 5px gray;
 }
 
 .nav-bar > * {
@@ -25,12 +25,12 @@
 }
 
 .nav-logo-image {
-    width: 60px;
-    height: 60px;
+    width: 90%;
+    height: 90%;
 }
 
 .nav-logo {
-    padding: 20px
+    padding: 5%;
 }
 
 .nav-left-tabs {
