@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    height: 5%; 
+    height: 85px; 
     color: rgba(0, 0, 0, 0.87);
     font-family: SoDoSans, Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -19,6 +19,7 @@
     flex-direction: row;
     align-items: center;
     margin: 20px;
+    height: 100%;
 }
 
 .nav-right {
@@ -26,11 +27,12 @@
 }
 
 .nav-logo-image {
-    width: 10%;
+    width: 100%;
 }
 
 .nav-logo {
     padding: 5%;
+    width: 10%;
 }
 
 .nav-left-tabs {
