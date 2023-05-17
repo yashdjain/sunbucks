@@ -1,6 +1,23 @@
 @import './reset.scss';
-@import './nav-bar.scss';
+
+html {
+    font-family: SoDoSans, Helvetica, Arial, sans-serif !important;
+
+}
 
 div {
     height: 100%;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px; 
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+@import './nav-bar.scss';
+@import './home.scss';

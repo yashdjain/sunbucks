@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/starbucks-logo.png"
-// import { IoLocationSharp } from '@react-icons/all-files/fa/IoLocationSharp';
+import { HiLocationMarker} from 'react-icons/hi';
 
 function NavBar() {
     return(
@@ -23,15 +23,11 @@ function NavBar() {
             </div>
             <div className="nav-right">
                 <div className="nav-store-finder">
-                    {/* <IoLocationSharp /> */}
+                    <HiLocationMarker />
                     <a href="">Find a store</a>
                 </div>
-                <div className="nav-sign-in">
-                    <a href="">Sign In</a>
-                </div>
-                <div className="nav-sign-up">
-                    <a href="">Join Now</a>
-                </div>
+                <a className='btn btn-sign-in' href="">Sign In</a>
+                <a className='btn btn-join-now' href="">Join Now</a>
             </div>
         </div>
     )

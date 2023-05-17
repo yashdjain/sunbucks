@@ -23,7 +23,17 @@
 }
 
 .nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
+}
+
+.nav-right > * {
+    display: flex;
+    align-items: center;
+    width: 100px
 }
 
 .nav-logo-image {
@@ -32,7 +42,7 @@
 
 .nav-logo {
     padding: 5%;
-    width: 10%;
+    width: 5%;
 }
 
 .nav-left-tabs {
@@ -41,33 +51,30 @@
     gap: 20px;
 }
 
+.nav-left-tabs > * {
+    display: flex;
+    align-items: center;
+}
+
 .nav-store-finder{
     display: flex;
     flex-direction: row;
 }
 
-.nav-sign-in {
-    padding: 10px;
-    border: 2px black solid;
-    background-color: white;
-    border-radius: 50px;
+.btn-sign-in {
     &:hover {
         background-color: gray;
     }
+    height: 20px
 }
 
-.nav-sign-up {
-    padding: 10px;
-    border: 2px black solid;
-    background-color: black;
-    border-radius: 50px;
-    &:hover {
-        background-color: gray;
-    }
-}
-
-.nav-sign-up > a {
+.btn-join-now {
     color: white;
+    background-color: black;
+    &:hover {
+        background-color: gray;
+    }
+    height: 20px
 }
 
 .nav-left-tabs > * > a {
